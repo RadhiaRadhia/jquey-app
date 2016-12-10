@@ -1,4 +1,5 @@
 #ingnore bower components
-node_modules
-bower_components
 
+bower_components
+#ingnore node_modules
+node_modules
