@@ -1,8 +1,8 @@
 module.exports = function(grunt) {
     //tasks loadings
-    grunt.loadNPMTasks('grunt-contribut-jshint')
-    grunt.loadNPMTasks("grunt-contribut-watch")
-        //grunt configuration
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks("grunt-contrib-watch");
+    //grunt configuration
     grunt.initConfig({
 
         //begin tasks declarations
@@ -12,8 +12,8 @@ module.exports = function(grunt) {
         watch: {
 
             script: {
-                files: [''],
-                Task: ['']
+                file: ['scr/js/app.js'],
+                Task: ['jshint'],
 
             }
         }
