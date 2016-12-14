@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "font-awesome": "Font-Awesome#^4.7.0"
+    "font-awesome": "Font-Awesome#^4.7.0",
+    "grunt": "^1.0.1"
   }
 }
